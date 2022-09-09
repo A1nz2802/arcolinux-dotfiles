@@ -5,11 +5,11 @@
 ### Initial Setup
 ```sh
 # pacman -Su;
-pacman -S archlinux-keyring; pacman -Syu;
+pacman -S archlinux-keyring; pacman -Syu
 ```
 ```sh
-rm -r ~/.config/qtile/ ~/.config/alacritty/;
-git clone ;
+rm -r ~/.config/qtile/ ~/.config/alacritty/
+git clone https://github.com/A1nz2802/arcolinux-dotfiles.git
 cp -r ~/Downloads/arcolinux-dotfiles/* ~/.config/
 ```
 
@@ -76,3 +76,7 @@ sudo rm -r ~/.xmonad/ ~/.xmobarrc;
 cp -r ~/Downloads/arcolinux-dotfiles/xmonad ~/.config/
 cp -r ~/Downloads/arcolinux-dotfiles/xmobar ~/.config/
 ```
+
+### NVim
+
+someday...
